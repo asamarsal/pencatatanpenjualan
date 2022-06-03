@@ -5,11 +5,13 @@
       <map>
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1355" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/backgroundgradient.xml" value="0.154" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/buttoncustomfingerprint.xml" value="0.154" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/ic_baseline_fingerprint_24.xml" value="0.154" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1355" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_daftar.xml" value="0.22" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_daftar_awal.xml" value="0.33" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_homelayout.xml" value="0.33" />
-        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_inputcode.xml" value="0.33" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_inputcode.xml" value="0.25" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/content_activity_daftar.xml" value="0.25" />

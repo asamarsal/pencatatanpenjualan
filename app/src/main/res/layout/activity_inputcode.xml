@@ -7,14 +7,131 @@
     tools:context=".InputCode"
     android:background="@drawable/backgroundgradient">
 
-    <Button
-        android:id="@+id/buttonfingerprint"
+    <TextView
+        android:id="@+id/passcodenumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/fingerprint"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="@string/passcode"
+        android:textStyle="bold"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/kalimatpasscode1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/kalimatpasscode1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/kalimatpasscode1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/kalimatpasscode2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/kalimatpasscode2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/kalimatpasscode2"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/angkapasscode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/angkapasscode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="380dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/buttonfingerprint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/kolomangka1"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:focusable="true"
+            android:inputType="numberSigned"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/kolomangka2"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:focusable="true"
+            android:inputType="numberSigned"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/kolomangka3"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:focusable="true"
+            android:inputType="numberSigned"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/kolomangka4"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:focusable="true"
+            android:inputType="numberSigned"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonfingerprint"
+        android:background="@drawable/ic_baseline_fingerprint_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

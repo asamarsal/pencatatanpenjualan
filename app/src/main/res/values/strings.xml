@@ -16,5 +16,8 @@
     <string name="pelanggan">PELANGGAN</string>
     <string name="transaksi">TRANSAKSI</string>
     <string name="fingerprint">FINGERPRINT</string>
+    <string name="passcode">PASSCODE</string>
+    <string name="kalimatpasscode1">Masukkan 4 Digit Angka</string>
+    <string name="kalimatpasscode2">Passcode Anda</string>
 
 </resources>
