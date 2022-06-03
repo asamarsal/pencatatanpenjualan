@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MA Collection</string>
+    <string name="selamat">SELAMAT</string>
+    <string name="login">LOGIN</string>
+    <string name="datang">DATANG</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="buat">BUAT</string>
+    <string name="akun">AKUN</string>
+    <string name="baru">BARU</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="codenumber">Code Number</string>
+    <string name="masuk">MASUK</string>
+    <string name="lupapassword">LUPA PASSWORD</string>
+    <string name="customharga">CUSTOM HARGA</string>
+    <string name="pelanggan">PELANGGAN</string>
+    <string name="transaksi">TRANSAKSI</string>
+    <string name="fingerprint">FINGERPRINT</string>
+
+</resources>
