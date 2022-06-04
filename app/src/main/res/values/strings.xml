@@ -29,6 +29,7 @@
     <string name="angka8">8</string>
     <string name="angka9">9</string>
     <string name="angka0">0</string>
+    <string name="hapus">hapus</string>
 
 
 </resources>

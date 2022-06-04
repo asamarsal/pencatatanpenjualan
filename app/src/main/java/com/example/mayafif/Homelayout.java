@@ -2,6 +2,7 @@ package com.example.mayafif;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +21,10 @@ public class Homelayout extends AppCompatActivity {
         setContentView(R.layout.activity_homelayout);
 
         bottomNavigation = findViewById(R.id.navigationbawah);
+
+        //Set ke fullscreen
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         //Membuat Layar Default Awal
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new PelangganFragment()).commit();

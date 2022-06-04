@@ -61,6 +61,8 @@
         android:ems="13"
         android:onClick="pindahkeinputcode"
         android:text="@string/login"
+        android:focusable="true"
+        android:backgroundTint="@color/orange"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
         app:layout_constraintEnd_toEndOf="parent"

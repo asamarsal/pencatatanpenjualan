@@ -76,6 +76,7 @@
         android:ems="13"
         android:text="@string/daftar"
         android:textColor="#FFFFFF"
+        android:backgroundTint="@color/orange"
         app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

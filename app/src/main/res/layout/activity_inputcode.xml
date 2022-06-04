@@ -59,13 +59,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
 
-        <EditText
+        <View
             android:id="@+id/kolomangka1"
             android:layout_width="50dp"
             android:layout_height="60dp"
             android:layout_marginEnd="20dp"
             android:layout_weight="1"
-            android:background="@drawable/bentukbulat"
+            android:background="@drawable/bentukbulatputih"
             android:focusable="true"
             android:inputType="numberSigned"
             android:maxLength="1"
@@ -74,13 +74,13 @@
             android:textSize="40sp"
             android:textStyle="bold" />
 
-        <EditText
+        <View
             android:id="@+id/kolomangka2"
             android:layout_width="50dp"
             android:layout_height="60dp"
             android:layout_marginEnd="20dp"
             android:layout_weight="1"
-            android:background="@drawable/bentukbulat"
+            android:background="@drawable/bentukbulatputih"
             android:focusable="true"
             android:inputType="numberSigned"
             android:maxLength="1"
@@ -88,13 +88,13 @@
             android:textColor="#000000"
             android:textSize="40sp" />
 
-        <EditText
+        <View
             android:id="@+id/kolomangka3"
             android:layout_width="50dp"
             android:layout_height="60dp"
             android:layout_marginEnd="20dp"
             android:layout_weight="1"
-            android:background="@drawable/bentukbulat"
+            android:background="@drawable/bentukbulatputih"
             android:focusable="true"
             android:inputType="numberSigned"
             android:maxLength="1"
@@ -102,12 +102,12 @@
             android:textColor="#000000"
             android:textSize="40sp" />
 
-        <EditText
+        <View
             android:id="@+id/kolomangka4"
             android:layout_width="50dp"
             android:layout_height="60dp"
             android:layout_weight="1"
-            android:background="@drawable/bentukbulat"
+            android:background="@drawable/bentukbulatputih"
             android:focusable="true"
             android:inputType="numberSigned"
             android:maxLength="1"
@@ -121,6 +121,8 @@
         android:id="@+id/numpad1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_marginBottom="2dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/numpad2"
@@ -131,32 +133,30 @@
             android:id="@+id/angka1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/orange"
-            android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
             android:text="@string/angka1"
             android:textColor="@color/white"
+            android:background="@android:color/transparent"
             android:textSize="32dp" />
 
         <Button
             android:id="@+id/angka2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/orange"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
             android:text="@string/angka2"
             android:textColor="@color/white"
+            android:background="@android:color/transparent"
             android:textSize="32dp" />
 
         <Button
             android:id="@+id/angka3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/orange"
-            android:layout_marginEnd="10dp"
             android:layout_weight="1"
+            android:background="@android:color/transparent"
             android:text="@string/angka3"
             android:textColor="@color/white"
             android:textSize="32dp" />
@@ -167,6 +167,8 @@
         android:id="@+id/numpad2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/numpad3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -176,34 +178,32 @@
             android:id="@+id/angka4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/orange"
-            android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
             android:text="@string/angka4"
             android:textSize="36dp"
+            android:background="@android:color/transparent"
             android:textColor="@color/white" />
 
         <Button
             android:id="@+id/angka5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/orange"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
             android:text="@string/angka5"
             android:textSize="36dp"
+            android:background="@android:color/transparent"
             android:textColor="@color/white" />
 
         <Button
             android:id="@+id/angka6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/orange"
-            android:layout_marginEnd="10dp"
             android:layout_weight="1"
             android:text="@string/angka6"
             android:textSize="36dp"
+            android:background="@android:color/transparent"
             android:textColor="@color/white" />
 
     </LinearLayout>
@@ -212,7 +212,8 @@
         android:id="@+id/numpad3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/numpad4"
         app:layout_constraintEnd_toEndOf="parent"
@@ -222,10 +223,9 @@
             android:id="@+id/angka7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/orange"
-            android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
+            android:background="@android:color/transparent"
             android:text="@string/angka7"
             android:textColor="@color/white"
             android:textSize="36dp" />
@@ -234,9 +234,9 @@
             android:id="@+id/angka8"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/orange"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
+            android:background="@android:color/transparent"
             android:text="@string/angka8"
             android:textColor="@color/white"
             android:textSize="36dp" />
@@ -245,9 +245,8 @@
             android:id="@+id/angka9"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/orange"
-            android:layout_marginEnd="10dp"
             android:layout_weight="1"
+            android:background="@android:color/transparent"
             android:text="@string/angka9"
             android:textColor="@color/white"
             android:textSize="36dp" />
@@ -258,7 +257,9 @@
         android:id="@+id/numpad4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="24dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/buttonfingerprint"
         app:layout_constraintEnd_toEndOf="parent"
@@ -268,41 +269,44 @@
             android:id="@+id/logokekiri"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="20dp"
+            android:layout_gravity="center"
             android:layout_weight="1"
-            android:background="@drawable/ic_baseline_arrow_back_24"
-            android:textSize="36dp" />
+            android:background="@android:color/transparent"
+            android:text="@android:string/cancel"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
 
         <Button
             android:id="@+id/angka0"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/orange"
-            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
             android:layout_weight="1"
+            android:background="@android:color/transparent"
             android:text="@string/angka0"
             android:textColor="@color/white"
             android:textSize="36dp" />
 
         <Button
-            android:id="@+id/logokekanan"
+            android:id="@+id/tekanhapus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
             android:layout_weight="1"
-            android:background="@drawable/ic_baseline_arrow_back_24"
-            android:textSize="36dp"
-            android:rotation="180"/>
+            android:background="@android:color/transparent"
+            android:text="@string/hapus"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
 
     </LinearLayout>
 
     <Button
         android:id="@+id/buttonfingerprint"
-        android:background="@drawable/ic_baseline_fingerprint_24"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_baseline_fingerprint_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
