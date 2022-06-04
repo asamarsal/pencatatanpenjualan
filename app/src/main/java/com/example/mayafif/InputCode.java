@@ -2,6 +2,7 @@ package com.example.mayafif;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -22,6 +23,10 @@ public class InputCode extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inputcode);
+
+        //Set ke fullscreen
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         executor = ContextCompat.getMainExecutor(this);
         biometricPrompt = new BiometricPrompt(InputCode.this,
