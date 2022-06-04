@@ -22,7 +22,8 @@
             android:exported="false" />
         <activity
             android:name=".DaftarAwal"
-            android:exported="false" /> <!-- Splash Screen Pertama Muncul, Dibawahnya Baru Main Activity -->
+            android:exported="false" />
+        <!-- Splash Screen Pertama Muncul, Dibawahnya Baru Main Activity -->
         <activity
             android:name=".SplashScreen"
             android:exported="true">

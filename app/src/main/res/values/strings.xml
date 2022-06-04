@@ -19,5 +19,16 @@
     <string name="passcode">PASSCODE</string>
     <string name="kalimatpasscode1">Masukkan 4 Digit Angka</string>
     <string name="kalimatpasscode2">Passcode Anda</string>
+    <string name="angka1">1</string>
+    <string name="angka2">2</string>
+    <string name="angka3">3</string>
+    <string name="angka4">4</string>
+    <string name="angka5">5</string>
+    <string name="angka6">6</string>
+    <string name="angka7">7</string>
+    <string name="angka8">8</string>
+    <string name="angka9">9</string>
+    <string name="angka0">0</string>
+
 
 </resources>

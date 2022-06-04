@@ -13,16 +13,14 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="48dp"
         android:gravity="center"
         android:text="@string/passcode"
-        android:textStyle="bold"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="50sp"
         app:layout_constraintBottom_toTopOf="@+id/kalimatpasscode1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -43,7 +41,7 @@
         android:id="@+id/kalimatpasscode2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="28dp"
         android:text="@string/kalimatpasscode2"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
@@ -54,13 +52,13 @@
 
     <LinearLayout
         android:id="@+id/angkapasscode"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginBottom="380dp"
+        android:layout_marginBottom="38dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/buttonfingerprint"
+        app:layout_constraintBottom_toTopOf="@+id/numpad1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
@@ -123,12 +121,189 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/numpad1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/numpad2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/angka1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/backgroundgradient"
+            android:text="@string/angka1"
+            android:textColor="@color/white"
+            android:textSize="36dp" />
+
+        <Button
+            android:id="@+id/angka2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/backgroundgradient"
+            android:text="@string/angka2"
+            android:textColor="@color/white"
+            android:textSize="36dp" />
+
+        <Button
+            android:id="@+id/angka3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/backgroundgradient"
+            android:text="@string/angka3"
+            android:textColor="@color/white"
+            android:textSize="36dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/numpad2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/numpad3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/angka4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="@string/angka4"
+            android:textSize="36dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/angka5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="@string/angka5"
+            android:textSize="36dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/angka6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="@string/angka6"
+            android:textSize="36dp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/numpad3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/numpad4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/angka7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="@string/angka7"
+            android:textColor="@color/white"
+            android:textSize="36dp" />
+
+        <Button
+            android:id="@+id/angka8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="@string/angka8"
+            android:textColor="@color/white"
+            android:textSize="36dp" />
+
+        <Button
+            android:id="@+id/angka9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="@string/angka9"
+            android:textColor="@color/white"
+            android:textSize="36dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/numpad4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/buttonfingerprint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/logokekiri"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_arrow_back_24"
+            android:textSize="36dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/angka0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="@string/angka0"
+            android:textSize="36dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/logokekanan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_east_24"
+            android:textSize="36dp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
     <Button
         android:id="@+id/buttonfingerprint"
         android:background="@drawable/ic_baseline_fingerprint_24"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
