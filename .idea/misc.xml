@@ -5,9 +5,14 @@
       <map>
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1355" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/backgroundgradient.xml" value="0.154" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/backgroundgradient2.xml" value="0.159" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/backgroundgradient3.xml" value="0.159" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/backgroundhomelayout.xml" value="0.159" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bentukbulat.xml" value="0.154" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bentukbulatbiru.xml" value="0.154" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bentukbulatputih.xml" value="0.159" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bgbuttonlogin.xml" value="0.105" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bgfragbawah.xml" value="0.159" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bgtombol0.xml" value="0.104" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bgtombol3.xml" value="0.105" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bgtombol7.xml" value="0.104" />
@@ -17,18 +22,21 @@
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/custompasscodebuttoncenter.xml" value="0.105" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/custompasscodebuttonleft.xml" value="0.105" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.105" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/ic_baseline_east_24.xml" value="0.159" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/ic_baseline_fingerprint_24.xml" value="0.154" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.159" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1355" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_daftar.xml" value="0.22" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_daftar_awal.xml" value="0.2" />
-        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_homelayout.xml" value="0.12" />
-        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_inputcode.xml" value="0.18" />
-        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_freestyle.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_homelayout.xml" value="0.33" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_inputcode.xml" value="0.33" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/content_activity_daftar.xml" value="0.25" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/fragment_customharga.xml" value="0.19384057971014493" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/fragment_first.xml" value="0.151268115942029" />
-        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/fragment_pelanggan.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/fragment_pelanggan.xml" value="0.25" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/fragment_second.xml" value="0.151268115942029" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/fragment_transaksi.xml" value="0.19384057971014493" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/menu/bottom_navigation.xml" value="0.225" />

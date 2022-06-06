@@ -5,8 +5,15 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+    <color name="hitamdikit">#99000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#E38451</color>
     <color name="biru">#0080FF</color>
+    <color name="biru1">#003C77</color>
+    <color name="biru2">#4DA7FF</color>
+    <color name="biru3">#A0D0FF</color>
+    <color name="biru4">#A0D0FF</color>
+    <color name="transparan">#00FFFFFF</color>
+    <color name="transparan2">#A6000000</color>
 
 </resources>

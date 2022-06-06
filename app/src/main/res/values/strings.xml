@@ -30,6 +30,8 @@
     <string name="angka9">9</string>
     <string name="angka0">0</string>
     <string name="hapus">hapus</string>
+    <string name="pilihpelanggan">PILIH PELANGGAN</string>
+    <string name="pilihtransaksi">PILIH TRANSAKSI</string>
 
 
 </resources>
