@@ -6,13 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PelangganFragment"
-    tools:openDrawer="start"
-    android:background="@drawable/backgroundgradient">
+    tools:openDrawer="start">
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:menu="@menu/main_menu"/>
+
 
 </androidx.drawerlayout.widget.DrawerLayout>

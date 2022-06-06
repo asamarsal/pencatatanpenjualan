@@ -13,6 +13,7 @@
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bentukbulatputih.xml" value="0.159" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bgbuttonlogin.xml" value="0.105" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bgfragbawah.xml" value="0.159" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bglayoutstatistik.xml" value="0.159" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bgtombol0.xml" value="0.104" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bgtombol3.xml" value="0.105" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/drawable/bgtombol7.xml" value="0.104" />
@@ -30,8 +31,9 @@
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_daftar.xml" value="0.22" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_daftar_awal.xml" value="0.2" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_freestyle.xml" value="0.25" />
-        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_homelayout.xml" value="0.14" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_homelayout.xml" value="0.25" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_inputcode.xml" value="0.33" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_laporanpenjualan.xml" value="0.22" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/appbaratas.xml" value="0.225" />

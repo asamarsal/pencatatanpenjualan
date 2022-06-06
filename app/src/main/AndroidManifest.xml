@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.mayafif">
 
-    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -15,6 +16,9 @@
         android:theme="@style/Theme.MayAfif"
         tools:targetApi="31">
         <activity
+            android:name=".laporanpenjualan"
+            android:exported="false" />
+        <activity
             android:name=".InputCode"
             android:exported="false" />
         <activity
@@ -22,8 +26,7 @@
             android:exported="false" />
         <activity
             android:name=".DaftarAwal"
-            android:exported="false" />
-        <!-- Splash Screen Pertama Muncul, Dibawahnya Baru Main Activity -->
+            android:exported="false" /> <!-- Splash Screen Pertama Muncul, Dibawahnya Baru Main Activity -->
         <activity
             android:name=".SplashScreen"
             android:exported="true">
