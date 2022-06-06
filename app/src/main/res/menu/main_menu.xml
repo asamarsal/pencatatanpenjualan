@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/drawerkiri1"
+              android:title="@string/pelanggan"
+              android:icon="@drawable/ic_baseline_menu_book_24"/>
+        <item android:id="@+id/drawerkiri2"
+            android:title="@string/pelanggan"
+            android:icon="@drawable/ic_baseline_menu_book_24"/>
+        <item android:id="@+id/drawerkiri3"
+            android:title="@string/pelanggan"
+            android:icon="@drawable/ic_baseline_menu_book_24"/>
+        <item android:id="@+id/drawerkiri4"
+            android:title="@string/pelanggan"
+            android:icon="@drawable/ic_baseline_menu_book_24"/>
+        <item android:id="@+id/drawerkiri5"
+            android:title="@string/pelanggan"
+            android:icon="@drawable/ic_baseline_menu_book_24"/>
+    </group>
+
+    <item android:title="@string/search">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/drawerkiri6"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+                <item android:id="@+id/drawerkiri7"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+                <item android:id="@+id/drawerkiri8"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+                <item android:id="@+id/drawerkiri9"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+                <item android:id="@+id/drawerkiri10"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/search">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/drawerkiri11"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+                <item android:id="@+id/drawerkiri12"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+                <item android:id="@+id/drawerkiri13"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+                <item android:id="@+id/drawerkiri14"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+                <item android:id="@+id/drawerkiri15"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
