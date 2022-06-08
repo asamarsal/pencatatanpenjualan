@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TransaksiFragment"
-    android:background="@drawable/backgroundgradient2">
+    android:fitsSystemWindows="true">
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
@@ -21,7 +21,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/backgroundgradient2">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/topAppBar"
@@ -31,8 +32,7 @@
             app:menu="@menu/baratastransaksi"
             app:navigationIcon="@drawable/ic_baseline_menu_24"
             app:title="@string/transaksi"
-            app:titleCentered="true"
-            android:background="@color/biru"/>
+            app:titleCentered="true"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 
