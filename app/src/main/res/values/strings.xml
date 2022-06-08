@@ -33,6 +33,16 @@
     <string name="hapus">hapus</string>
     <string name="pilihpelanggan">PILIH PELANGGAN</string>
     <string name="pilihtransaksi">PILIH TRANSAKSI</string>
-
+    <string name="caripelanggan">KETIK NAMA PELANGGAN</string>
+    <string name="tulisanpemasukanatas">PEMASUKAN BULAN INI</string>
+    <string name="nominal">Rp. 975.000</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="penjelasanbookmark">Pelanggan yang difavoritkan</string>
+    <string name="penjelasansearch">Cari Pelanggan</string>
+    <string name="more">Setting</string>
+    <string name="penjelasanmore">Pengaturan dan Lainnya</string>
+    <string name="titlebaratassetting">Pengaturan dan lainnya</string>
+    <string name="produk">Produk</string>
+    <string name= "riwayattransaksi">Riwayat Transaksi</string>
 
 </resources>

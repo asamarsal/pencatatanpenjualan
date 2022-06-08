@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
-        <item android:id="@+id/drawerkiri1"
-              android:title="@string/pelanggan"
-              android:icon="@drawable/ic_baseline_menu_book_24"/>
-        <item android:id="@+id/drawerkiri2"
-            android:title="@string/pelanggan"
-            android:icon="@drawable/ic_baseline_menu_book_24"/>
-        <item android:id="@+id/drawerkiri3"
-            android:title="@string/pelanggan"
-            android:icon="@drawable/ic_baseline_menu_book_24"/>
-        <item android:id="@+id/drawerkiri4"
-            android:title="@string/pelanggan"
-            android:icon="@drawable/ic_baseline_menu_book_24"/>
-        <item android:id="@+id/drawerkiri5"
-            android:title="@string/pelanggan"
-            android:icon="@drawable/ic_baseline_menu_book_24"/>
-    </group>
+    <item android:title="@string/search">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/drawerkiri1"
+                      android:title="@string/pelanggan"
+                      android:icon="@drawable/ic_baseline_menu_book_24"/>
+                <item android:id="@+id/drawerkiri2"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+                <item android:id="@+id/drawerkiri3"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+                <item android:id="@+id/drawerkiri4"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+                <item android:id="@+id/drawerkiri5"
+                    android:title="@string/pelanggan"
+                    android:icon="@drawable/ic_baseline_menu_book_24"/>
+            </group>
+
+        </menu>
+    </item>
 
     <item android:title="@string/search">
         <menu>

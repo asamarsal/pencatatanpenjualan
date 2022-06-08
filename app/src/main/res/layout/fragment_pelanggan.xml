@@ -14,5 +14,7 @@
         android:layout_gravity="start"
         app:menu="@menu/main_menu"/>
 
+    <include layout="@layout/activity_layoutpelanggan"/>
+
 
 </androidx.drawerlayout.widget.DrawerLayout>

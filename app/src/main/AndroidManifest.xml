@@ -16,6 +16,18 @@
         android:theme="@style/Theme.MayAfif"
         tools:targetApi="31">
         <activity
+            android:name=".riwayattransaksi"
+            android:exported="false" />
+        <activity
+            android:name=".layoutproduk"
+            android:exported="false" />
+        <activity
+            android:name=".layoutsetting"
+            android:exported="false" />
+        <activity
+            android:name=".layoutpelanggan"
+            android:exported="false" />
+        <activity
             android:name=".laporanpenjualan"
             android:exported="false" />
         <activity

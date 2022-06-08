@@ -6,13 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CustomhargaFragment"
+    android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:menu="@menu/main_menu"/>
+        app:menu="@menu/main_menu"
+        android:fitsSystemWindows="true"/>
 
 
 

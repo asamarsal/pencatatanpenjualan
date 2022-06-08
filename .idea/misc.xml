@@ -33,8 +33,12 @@
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_freestyle.xml" value="0.25" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_homelayout.xml" value="0.25" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_inputcode.xml" value="0.33" />
-        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_laporanpenjualan.xml" value="0.22" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_laporanpenjualan.xml" value="0.33" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_layoutpelanggan.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_layoutproduk.xml" value="0.225" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_layoutsetting.xml" value="0.225" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_riwayattransaksi.xml" value="0.225" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/appbaratas.xml" value="0.225" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/appbarataspelanggan.xml" value="0.225" />
@@ -45,6 +49,10 @@
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/fragment_pelanggan.xml" value="0.25" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/fragment_second.xml" value="0.151268115942029" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/layout/fragment_transaksi.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/menu/baratasall.xml" value="0.225" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/menu/barataspelanggan.xml" value="0.225" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/menu/baratasproduk.xml" value="0.225" />
+        <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/menu/baratasriwayattransaksi.xml" value="0.225" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/menu/bottom_navigation.xml" value="0.225" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/menu/main_menu.xml" value="0.1" />
         <entry key="..\:/Users/DELL/Desktop/My/May Afif/app/src/main/res/menu/menuatas.xml" value="0.1" />
