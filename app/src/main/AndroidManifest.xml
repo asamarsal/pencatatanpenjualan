@@ -16,6 +16,9 @@
         android:theme="@style/Theme.MayAfif"
         tools:targetApi="31">
         <activity
+            android:name=".navigationviewall"
+            android:exported="false" />
+        <activity
             android:name=".riwayattransaksi"
             android:exported="false" />
         <activity
