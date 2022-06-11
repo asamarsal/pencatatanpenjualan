@@ -22,7 +22,7 @@ public class DaftarAwal extends AppCompatActivity {
 
     //Pindah ke layout login
     public void pindahkelogin(View view) {
-        Intent intent = new Intent(DaftarAwal.this,MainActivity.class);
+        Intent intent = new Intent(DaftarAwal.this, LoginActivity.class);
         startActivity(intent);
     }
 }

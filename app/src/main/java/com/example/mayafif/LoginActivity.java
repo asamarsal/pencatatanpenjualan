@@ -7,12 +7,12 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
         //Set ke fullscreen
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -20,17 +20,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void pindahkedaftar(View view) {
-        Intent intent = new Intent(MainActivity.this,DaftarAwal.class);
+        Intent intent = new Intent(LoginActivity.this,DaftarAwal.class);
         startActivity(intent);
     }
 
     //public void pindahkemenuutama(View view) {
-    //    Intent intent = new Intent(MainActivity.this,Homelayout.class);
+    //    Intent intent = new Intent(LoginActivity.this,Homelayout.class);
     //    startActivity(intent);
     //}
 
     public void pindahkeinputcode(View view) {
-        Intent intent = new Intent(MainActivity.this, InputCode.class);
+        Intent intent = new Intent(LoginActivity.this, InputCode.class);
         startActivity(intent);
     }
 }
